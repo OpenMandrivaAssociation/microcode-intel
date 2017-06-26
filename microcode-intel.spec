@@ -8,6 +8,7 @@ License: distributable
 Group: System/Kernel and hardware
 BuildArch: noarch
 BuildRequires: iucode-tool
+ExclusiveArch: %{ix86} x86_64
 
 %description
 Latest microcode (firmware) for Intel processors
