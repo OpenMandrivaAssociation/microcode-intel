@@ -1,5 +1,5 @@
 Name: microcode-intel
-Version: 20161104
+Version: 20170511
 Release: 1
 Source0: https://downloadmirror.intel.com/26400/eng/microcode-%{version}.tgz
 Summary: Latest microcode (firmware) for Intel processors
