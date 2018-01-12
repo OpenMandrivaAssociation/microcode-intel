@@ -1,9 +1,9 @@
 Name: microcode-intel
-Version: 20170707
+Version: 20180108
 Release: 1
-Source0: https://downloadmirror.intel.com/26925/eng/microcode-%{version}.tgz
+Source0: https://downloadmirror.intel.com/27431/eng/microcode-%{version}.tgz
 Summary: Latest microcode (firmware) for Intel processors
-URL: https://downloadcenter.intel.com/download/26925/Linux-Processor-Microcode-Data-File
+URL: https://downloadcenter.intel.com/download/27431/Linux-Processor-Microcode-Data-File
 License: distributable
 Group: System/Kernel and hardware
 BuildArch: noarch
