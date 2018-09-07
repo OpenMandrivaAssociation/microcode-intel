@@ -7,6 +7,7 @@ URL: https://downloadcenter.intel.com/download/27945/Linux-Processor-Microcode-D
 License: distributable
 Group: System/Kernel and hardware
 BuildArch: noarch
+ExcludeArch: %{armx}
 BuildRequires: iucode-tool >= 2.3
 
 %description
