@@ -1,6 +1,6 @@
 Name: microcode-intel
 Version: 20180703
-Release: 1
+Release: 2
 Source0: https://downloadmirror.intel.com/27945/eng/microcode-%{version}.tgz
 Summary: Latest microcode (firmware) for Intel processors
 URL: https://downloadcenter.intel.com/download/27945/Linux-Processor-Microcode-Data-File
