@@ -1,5 +1,5 @@
 Name: microcode-intel
-Version:	20191115
+Version:	20200508
 Release:	1
 Source0: https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/archive/microcode-%{version}.tar.gz
 Summary: Latest microcode (firmware) for Intel processors
