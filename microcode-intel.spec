@@ -20,11 +20,11 @@ Latest microcode (firmware) for Intel processors
 %build
 
 %install
-mkdir -p %{buildroot}/lib/firmware/intel-ucode %{buildroot}/boot
+mkdir -p %{buildroot}%{_prefix}/lib/firmware/intel-ucode %{buildroot}/boot
 cd intel-ucode
-%{_sbindir}/iucode_tool --write-firmware=%{buildroot}/lib/firmware/intel-ucode .
+%{_sbindir}/iucode_tool --write-firmware=%{buildroot}%{_prefix}/lib/firmware/intel-ucode .
 %{_sbindir}/iucode_tool --write-earlyfw=%{buildroot}/boot/microcode.img .
 
 %files
-/lib/firmware/intel-ucode
+%{_prefix}/lib/firmware/intel-ucode
 /boot/microcode.img
